@@ -1,10 +1,10 @@
 import "./App.css";
-import { SheetsList } from "./Sheets/SheetsList";
+import { TabsList } from "./Sheets/TabsList";
 
 function App() {
   return (
     <div className="App">
-      <SheetsList />
+      <TabsList />
     </div>
   );
 }
