@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "lib": ["es2022", "dom"],
+    "jsx": "react-jsx",
+    "moduleResolution": "node"
+  },
+  "include": ["src"], // This will include all files in the src directory
+  "exclude": ["node_modules"]
+}
