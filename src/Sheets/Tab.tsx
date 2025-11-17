@@ -1,13 +1,14 @@
 export function Sheets({ tabsUrl, title }: { tabsUrl: string; title: string }) {
   return (
-    <div>
+    <li>
+      <label>{title}</label>
       <iframe
         src={tabsUrl}
         title={title}
         frameBorder="0"
-        width={500}
-        height={600}
+        width={300}
+        height={400}
       ></iframe>
-    </div>
+    </li>
   );
 }

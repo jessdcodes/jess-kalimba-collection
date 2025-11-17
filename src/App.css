@@ -27,3 +27,14 @@
 .App-link {
   color: #61dafb;
 }
+
+.tabs-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.tabs-list li {
+  margin: 10px;
+}
