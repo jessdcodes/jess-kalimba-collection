@@ -1,13 +1,13 @@
 import "./App.css";
-import { TabsList } from "./Sheets/TabsList";
+import { CollectionPage } from "./components/Collection/CollectionPage";
 
 function App() {
   return (
     <div className="App">
       <header>
-        <h1>Jess' Collection</h1>
+        <h1>Jess' Kalimba Collection</h1>
       </header>
-      <TabsList />
+      <CollectionPage />
     </div>
   );
 }
